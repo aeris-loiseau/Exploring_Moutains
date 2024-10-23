@@ -1,0 +1,17 @@
+.banner {
+    background-image: url(../../images/background.png);
+    background-size: cover;
+    background-position: center; 
+    height: 300px;
+    width: 100%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    color: #fefae0; 
+    text-align: center; 
+    border-radius: 5px;
+}
+
+.banner-with-flat-filter {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/background.png');
+}

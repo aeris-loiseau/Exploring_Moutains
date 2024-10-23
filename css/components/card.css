@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 150px;
+  max-height: 150px;
+  min-height: 150px /* Ajout d'une hauteur maximale */
+  object-fit: cover;  /* Pour s'assurer que l'image garde son aspect tout en remplissant la boîte */
+}
+
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+  font-size: 1.5rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Ajout d'un écart entre les cartes */
+}

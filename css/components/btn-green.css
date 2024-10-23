@@ -1,0 +1,19 @@
+.btn-green {
+	background-color: #a9b388;
+	padding: 15px 20px;
+	border-radius: 5px;
+	color: #4A4947;
+	font-weight: bold;
+	font-family: "IM Fell English", serif;
+	text-align: center; /* Center the text within the button */
+	text-decoration: none; /* Remove underline from link */
+	display: inline-block; /* Ensure it behaves like a button */
+	border: none; /* Remove default button border if applicable */
+	cursor: pointer; /* Change cursor to pointer on hover */
+	transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.btn-green:hover {
+	background-color: #5f6f52;
+	color: #FEFAE0; /*Darken on hover for better interactivity */
+}
